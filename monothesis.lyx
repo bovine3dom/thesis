@@ -1715,8 +1715,8 @@ literal "false"
  essential to their function.
  They devised a method of calculating how unusual a local structure was—i.e.
  how unlikely it was to appear by chance—and used this to extract small
- graphs characteristic of graphs from several categories, including the Internet,
- food webs and gene regulatory networks.
+ graphs characteristic of graphs from several categories, including the
+ Internet, food webs and gene regulatory networks.
 \end_layout
 
 \begin_layout Section
@@ -1876,8 +1876,8 @@ noprefix "false"
 \begin_layout Itemize
 On academic co-authorship networks, collaboration with authors who do not
  directly collaborate with each other was found to increase the number of
- years in which an author published papers. This finding had a robust degree of statistical
- significance.
+ years in which an author published papers.
+ This finding had a robust degree of statistical significance.
  This is detailed in chapter 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3303,8 +3303,8 @@ evolving networks
 
 \begin_layout Standard
 Almost no real-world systems are static: they change over time.
- The topologies of their network representations are no exception—they
- also change with time.
+ The topologies of their network representations are no exception—they also
+ change with time.
  We call these temporal networks; other authors sometimes call them dynamic
 \begin_inset Index idx
 status open
@@ -3691,7 +3691,7 @@ where
 , must satisfy
 \begin_inset Formula 
 \[
-\boldsymbol{w}_{1}=\arg\max\left\{ \sigma^{2}(\boldsymbol{t}_{1})\right\} =\arg\max\left\{ \sum_{i}(t_{1})_{i}^{2}\right\} \text{,}
+\boldsymbol{w}_{1}=\arg\max\left\{ \sigma^{2}(\boldsymbol{t}'_{1})\right\} =\arg\max\left\{ \sum_{i}(\boldsymbol{t}'_{1})_{i}^{2}\right\} \text{,}
 \]
 
 \end_inset
@@ -3708,11 +3708,11 @@ this t_1 is wrong - it needs to be the t corresponding to the 1^th unit
 \end_inset
 
 where 
-\begin_inset Formula $\sigma^{2}(\boldsymbol{t}_{1})$
+\begin_inset Formula $\sigma^{2}(\boldsymbol{t}'_{1})$
 \end_inset
 
  is the variance of the vector 
-\begin_inset Formula $\boldsymbol{t}_{1}$
+\begin_inset Formula $\boldsymbol{t}'_{1}=\sum_{i}\boldsymbol{x}_{i}\cdot\boldsymbol{w}_{1}\hat{\boldsymbol{1}}$
 \end_inset
 
 .
@@ -5084,8 +5084,8 @@ Average path length
 \end_layout
 
 \begin_layout Standard
-The path length between two nodes is the length of the route taken between the two
- nodes.
+The path length between two nodes is the length of the route taken between
+ the two nodes.
  For an unweighted network, this is the number of edges such a path would
  touch; for a weighted network it would be the sum of the weights of those
  edges.
@@ -6449,8 +6449,8 @@ Dynamics (of topology)
 \begin_layout Standard
 Complex networks are often formed by dynamical processes; they grow and
  change over time.
- Complex networks are generally created by many agents making small decisions, such
- as websites choosing which other websites to link to, or people choosing
+ Complex networks are generally created by many agents making small decisions,
+ such as websites choosing which other websites to link to, or people choosing
  which other people to send emails to, or neurons making links with nearby
  neurons.
  
