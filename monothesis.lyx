@@ -1131,7 +1131,7 @@ literal "false"
  The code written to crawl and analyse the data is available at 
 \begin_inset CommandInset href
 LatexCommand href
-target "github.com/bovine3dom/evolution-of-english"
+target "https://github.com/bovine3dom/evolution-of-english"
 literal "false"
 
 \end_inset
@@ -1297,7 +1297,7 @@ Viva: mention csete 2004 bow-ties somewhere?
 \end_inset
 
 This first part serves as an introduction to the thesis.
- This first chapter presents a brief introduction to network science and
+ The first chapter presents a brief introduction to network science and
  the characterisation of networks; the next chapter is a more rigorous and
  mathematically-involved primer on the background of this thesis and the
  state-of-the-art of characterisation in network science and related techniques.
@@ -1715,7 +1715,7 @@ literal "false"
  essential to their function.
  They devised a method of calculating how unusual a local structure was—i.e.
  how unlikely it was to appear by chance—and used this to extract small
- graphs characteristic of graph from several categories, including the Internet,
+ graphs characteristic of graphs from several categories, including the Internet,
  food webs and gene regulatory networks.
 \end_layout
 
@@ -1876,7 +1876,7 @@ noprefix "false"
 \begin_layout Itemize
 On academic co-authorship networks, collaboration with authors who do not
  directly collaborate with each other was found to increase the number of
- years in which an author published papers with a robust degree of statistical
+ years in which an author published papers. This finding had a robust degree of statistical
  significance.
  This is detailed in chapter 
 \begin_inset CommandInset ref
@@ -3303,7 +3303,7 @@ evolving networks
 
 \begin_layout Standard
 Almost no real-world systems are static: they change over time.
- Their topologies of their network representations are no exception—they
+ The topologies of their network representations are no exception—they
  also change with time.
  We call these temporal networks; other authors sometimes call them dynamic
 \begin_inset Index idx
@@ -4954,7 +4954,7 @@ literal "false"
 \end_inset
 
 .
- Many network characteristics are termed metrics in the sense of 
+ Many network characteristics are termed metrics in the sense that 
 \begin_inset Quotes xld
 \end_inset
 
@@ -5084,7 +5084,7 @@ Average path length
 \end_layout
 
 \begin_layout Standard
-The path length between two nodes is the length of the route taken the two
+The path length between two nodes is the length of the route taken between the two
  nodes.
  For an unweighted network, this is the number of edges such a path would
  touch; for a weighted network it would be the sum of the weights of those
@@ -6449,7 +6449,7 @@ Dynamics (of topology)
 \begin_layout Standard
 Complex networks are often formed by dynamical processes; they grow and
  change over time.
- The networks generally created by many agents making small decisions, such
+ Complex networks are generally created by many agents making small decisions, such
  as websites choosing which other websites to link to, or people choosing
  which other people to send emails to, or neurons making links with nearby
  neurons.
@@ -6544,7 +6544,7 @@ name "subsec:Network-models"
 \end_layout
 
 \begin_layout Standard
-Dealing with real-world networks pose a number of issues, such as being
+Dealing with real-world networks poses a number of issues, such as being
  inflexible in the number of nodes there are or poor labelling.
  Network models are convenient for the generation of synthetic networks
  with specific parameters and we use them extensively in part 
