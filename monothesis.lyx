@@ -3712,7 +3712,7 @@ where
 \end_inset
 
  is the variance of the vector 
-\begin_inset Formula $\boldsymbol{t}'_{1}=\sum_{i}\boldsymbol{x}_{i}\cdot\boldsymbol{w}_{1}\hat{\boldsymbol{1}}$
+\begin_inset Formula $\boldsymbol{t}'_{1}=[\boldsymbol{x}_{i}\cdot\boldsymbol{w}_{1}]$
 \end_inset
 
 .
